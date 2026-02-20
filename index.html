@@ -5,47 +5,44 @@
   <title>Vera Lounge Bar Menü</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
       background: #111;
+      -webkit-overflow-scrolling: touch;
     }
-    .viewer {
-      position: fixed;
-      inset: 0;
-      background: #111;
+    .menu {
+      max-width: 800px;
+      margin: 0 auto;
     }
-    .viewer object,
-    .viewer iframe {
+    .menu img {
       width: 100%;
-      height: 100%;
-      border: none;
       display: block;
-    }
-    .fallback {
-      color: #fff;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      padding: 20px;
-      text-align: center;
-    }
-    .fallback a {
-      color: #ffb347;
-      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <div class="viewer">
-    <object data="menu.pdf#toolbar=0&navpanes=0&scrollbar=0"
-            type="application/pdf">
-      <iframe src="menu.pdf#toolbar=0&navpanes=0&scrollbar=0">
-        <div class="fallback">
-          Menüyü görüntülemek için
-          <a href="menu.pdf">buraya tıklayın</a>.
-        </div>
-      </iframe>
-    </object>
+  <div class="menu">
+    <img src="pages/page_01.jpg" alt="Menü sayfa 1" loading="eager" />
+    <img src="pages/page_02.jpg" alt="Menü sayfa 2" loading="lazy" />
+    <img src="pages/page_03.jpg" alt="Menü sayfa 3" loading="lazy" />
+    <img src="pages/page_04.jpg" alt="Menü sayfa 4" loading="lazy" />
+    <img src="pages/page_05.jpg" alt="Menü sayfa 5" loading="lazy" />
+    <img src="pages/page_06.jpg" alt="Menü sayfa 6" loading="lazy" />
+    <img src="pages/page_07.jpg" alt="Menü sayfa 7" loading="lazy" />
+    <img src="pages/page_08.jpg" alt="Menü sayfa 8" loading="lazy" />
+    <img src="pages/page_09.jpg" alt="Menü sayfa 9" loading="lazy" />
+    <img src="pages/page_10.jpg" alt="Menü sayfa 10" loading="lazy" />
+    <img src="pages/page_11.jpg" alt="Menü sayfa 11" loading="lazy" />
+    <img src="pages/page_12.jpg" alt="Menü sayfa 12" loading="lazy" />
+    <img src="pages/page_13.jpg" alt="Menü sayfa 13" loading="lazy" />
+    <img src="pages/page_14.jpg" alt="Menü sayfa 14" loading="lazy" />
+    <img src="pages/page_15.jpg" alt="Menü sayfa 15" loading="lazy" />
+    <img src="pages/page_16.jpg" alt="Menü sayfa 16" loading="lazy" />
+    <img src="pages/page_17.jpg" alt="Menü sayfa 17" loading="lazy" />
+    <img src="pages/page_18.jpg" alt="Menü sayfa 18" loading="lazy" />
+    <img src="pages/page_19.jpg" alt="Menü sayfa 19" loading="lazy" />
+    <img src="pages/page_20.jpg" alt="Menü sayfa 20" loading="lazy" />
+    <img src="pages/page_21.jpg" alt="Menü sayfa 21" loading="lazy" />
   </div>
 </body>
 </html>
