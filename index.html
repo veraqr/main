@@ -2,19 +2,19 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
-  <title>Vera Lounge Bar Menü</title>
+  <title>Vera Lounge Bar Menu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    html, body {
-      background: #111;
-      -webkit-overflow-scrolling: touch;
+    html, body { background: #111; }
+    .menu { max-width: 800px; margin: 0 auto; }
+    .page {
+      position: relative;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
     }
-    .menu {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    .menu img {
+    .page img {
       width: 100%;
       display: block;
     }
@@ -22,27 +22,69 @@
 </head>
 <body>
   <div class="menu">
-    <img src="pages/page_01.jpg" alt="Menü sayfa 1" loading="eager" />
-    <img src="pages/page_02.jpg" alt="Menü sayfa 2" loading="lazy" />
-    <img src="pages/page_03.jpg" alt="Menü sayfa 3" loading="lazy" />
-    <img src="pages/page_04.jpg" alt="Menü sayfa 4" loading="lazy" />
-    <img src="pages/page_05.jpg" alt="Menü sayfa 5" loading="lazy" />
-    <img src="pages/page_06.jpg" alt="Menü sayfa 6" loading="lazy" />
-    <img src="pages/page_07.jpg" alt="Menü sayfa 7" loading="lazy" />
-    <img src="pages/page_08.jpg" alt="Menü sayfa 8" loading="lazy" />
-    <img src="pages/page_09.jpg" alt="Menü sayfa 9" loading="lazy" />
-    <img src="pages/page_10.jpg" alt="Menü sayfa 10" loading="lazy" />
-    <img src="pages/page_11.jpg" alt="Menü sayfa 11" loading="lazy" />
-    <img src="pages/page_12.jpg" alt="Menü sayfa 12" loading="lazy" />
-    <img src="pages/page_13.jpg" alt="Menü sayfa 13" loading="lazy" />
-    <img src="pages/page_14.jpg" alt="Menü sayfa 14" loading="lazy" />
-    <img src="pages/page_15.jpg" alt="Menü sayfa 15" loading="lazy" />
-    <img src="pages/page_16.jpg" alt="Menü sayfa 16" loading="lazy" />
-    <img src="pages/page_17.jpg" alt="Menü sayfa 17" loading="lazy" />
-    <img src="pages/page_18.jpg" alt="Menü sayfa 18" loading="lazy" />
-    <img src="pages/page_19.jpg" alt="Menü sayfa 19" loading="lazy" />
-    <img src="pages/page_20.jpg" alt="Menü sayfa 20" loading="lazy" />
-    <img src="pages/page_21.jpg" alt="Menü sayfa 21" loading="lazy" />
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQACA//EABYQAQEBAAAAAAAAAAAAAAAAAAABEf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAwT/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDqYDrJ0qg6AVSqkAGKxQE1oQitBAr/2Q==')">
+      <img src="pages/page_01.jpg" alt="Menu sayfa 1" loading="eager" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQACBf/EABkQAQEBAQEBAAAAAAAAAAAAAAEAEQISIf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOg0NpNjKKlsm2gnIMnX2WgpgiYJgy9SO2fJaDIpCqmMv//Z')">
+      <img src="pages/page_02.jpg" alt="Menu sayfa 2" loading="lazy" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAQACAwT/xAAZEAEBAQEBAQAAAAAAAAAAAAAAAREDEwL/xAAYAQEBAAMAAAAAAAAAAAAAAAAAAQIDBP/EABgRAQEBAQEAAAAAAAAAAAAAAAABEQIS/9oADAMBAAIRAxEAPwDcOBNTqODFpBAgE1GWvkKJNVjvOcV5xcYeo87UdfKLzhi3qP/Z')">
+      <img src="pages/page_03.jpg" alt="Menu sayfa 3" loading="lazy" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQAC/8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAME/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A0ZNB1FqWYDoBHAQQIBNSsoGrWUgf/9k=')">
+      <img src="pages/page_04.jpg" alt="Menu sayfa 4" loading="lazy" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAwACBAH/xAAcEAACAgMBAQAAAAAAAAAAAAAAAQIRAyExEiL/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAYEQEBAQEBAAAAAAAAAAAAAAAAAREhMf/aAAwDAQACEQMRAD8A0r6laE8PpzFFLguyNdG4VsJy8uzT0GcVexw2r4hA8QjCX1AsnRQsnQT1XHk2PaMi0JbsLmlnKloJyvZOskNumNWTH//Z')">
+      <img src="pages/page_05.jpg" alt="Menu sayfa 5" loading="lazy" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAYEAEBAQEBAAAAAAAAAAAAAAAAARMCMf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABcRAQADAAAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/APcs9WQRpqKzK0IgUAVAQHDXo1qW3iXdXn1pr0WYl//Z')">
+      <img src="pages/page_06.jpg" alt="Menu sayfa 6" loading="lazy" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAZEAEBAQEBAQAAAAAAAAAAAAAAARECITH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8A925W+WbNq7iNVtnq+Eq0RMCVQAAc+dbhIotLUlSk+iP/2Q==')">
+      <img src="pages/page_07.jpg" alt="Menu sayfa 7" loading="lazy" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDAf/EABoQAAIDAQEAAAAAAAAAAAAAAAABAhESEyH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAgMB/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAEREv/aAAwDAQACEQMRAD8At6FsvyQckRlbdxD0NNF+SM5oZTqLMELJmRk7KZYcRoewATUQ1FE8Kwwji8im0btEsIMjaZH/2Q==')">
+      <img src="pages/page_08.jpg" alt="Menu sayfa 8" loading="lazy" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwX/xAAcEAACAgMBAQAAAAAAAAAAAAAAAgERITFBAxL/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgD/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8A6EyAdHWAUhn+Rq1kz52xULQph9KJ6UBpdCdgE7MzBHwbK1wYwpqsYGiKCdiodAp//9k=')">
+      <img src="pages/page_09.jpg" alt="Menu sayfa 9" loading="lazy" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAQADAgX/xAAaEAEBAAIDAAAAAAAAAAAAAAAAAQMTESEx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAEREv/aAAwDAQACEQMRAD8A9IVVIojoVAKRTAFIpgJeMdlGypbWZbciXthclMyUtcS//9k=')">
+      <img src="pages/page_10.jpg" alt="Menu sayfa 10" loading="lazy" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEC/8QAFxABAQEBAAAAAAAAAAAAAAAAAAERAv/EABYBAQEBAAAAAAAAAAAAAAAAAAADBP/EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIRAxEAPwDaxF5qLVSotqBFxAAXEAMDQAkDQf/Z')">
+      <img src="pages/page_11.jpg" alt="Menu sayfa 11" loading="lazy" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwX/xAAaEAEBAQEAAwAAAAAAAAAAAAAAARExAiFC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8A6WCQwihn5T2suhD0I+lgLxG4upk0IeGQA6mXBeJlB//Z')">
+      <img src="pages/page_12.jpg" alt="Menu sayfa 12" loading="lazy" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAaEAADAQEBAQAAAAAAAAAAAAAAAQIRAyEx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwD0Rzc0ehPEUC3STBejCgCMBgipTxHKulb4jdlleGmUusRjn0bo6NJiYSA1mj4CEV//2Q==')">
+      <img src="pages/page_13.jpg" alt="Menu sayfa 13" loading="lazy" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQACBP/EABYQAQEBAAAAAAAAAAAAAAAAAAABEf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A71hkVRRiagsBQiECKRQEa1hA3rNCB//Z')">
+      <img src="pages/page_14.jpg" alt="Menu sayfa 14" loading="lazy" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABgQAQADAQAAAAAAAAAAAAAAAAABESEC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8A6RYlIq2JSgIpcABYDPSRrUwzGCxJxrlJ1rkK/9k=')">
+      <img src="pages/page_15.jpg" alt="Menu sayfa 15" loading="lazy" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAgEAAwT/xAAbEAADAQEBAQEAAAAAAAAAAAAAAQIRIRIDMf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwD3TKw2GjcE0RqikapWDSwN7gKsfhQ/NcEEUNvgg2uASHwRyll9MLHUFvgfTC64CP/Z')">
+      <img src="pages/page_16.jpg" alt="Menu sayfa 16" loading="lazy" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAEEAgX/xAAaEAEBAQEBAQEAAAAAAAAAAAABAAIRExIh/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABcRAQADAAAAAAAAAAAAAAAAAAABEhP/2gAMAwEAAhEDEQA/APQzpSOqh+T5o0GuzTwhmJ0iKUYPYwCtCsHOeBVSyemp6as2dM5axK9LH6anpqWM5f/Z')">
+      <img src="pages/page_17.jpg" alt="Menu sayfa 17" loading="lazy" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBP/EABkQAQEBAQEBAAAAAAAAAAAAAAABMRECQf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwDfdPgmneopcL6qdK6BzTTNHr1ICk3RPXRQgTYoLpiZFAISP//Z')">
+      <img src="pages/page_18.jpg" alt="Menu sayfa 18" loading="lazy" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAwECBAD/xAAfEAACAgICAwEAAAAAAAAAAAAAAQIDETEEIRITUTL/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/8QAGREAAwEBAQAAAAAAAAAAAAAAAAECESEx/9oADAMBAAIRAxEAPwB66/JCOlInj6FfZCXDWqegqlMOyvxRqXQPI0DXAmnp1LxEVNhUfkZDRNekgcjQzeEBc8xBhPpND6GyjDGTWi3sl9EmW41muWGgLcJB+yX0q5N7E2OYw//Z')">
+      <img src="pages/page_19.jpg" alt="Menu sayfa 19" loading="lazy" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwX/xAAZEAEBAQEBAQAAAAAAAAAAAAAAARECISL/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8A6MsGs5831pERqeudq8ATC29dNpPEzjLqtIhmnTBLYGVvq+bpGrwjCL//2Q==')">
+      <img src="pages/page_20.jpg" alt="Menu sayfa 20" loading="lazy" />
+    </div>
+    <div class="page" style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAyADIAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCAAtACADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA//EABoQAQEBAQEBAQAAAAAAAAAAAAABEQIhMUH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAME/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAERIVH/2gAMAwEAAhEDEQA/AOgtO+BlHRTzV9TIieK662EeJOxP4xqmm2Bsc71Z0pNVuLTLdMOA6qfE3ma2i1Tgf//Z')">
+      <img src="pages/page_21.jpg" alt="Menu sayfa 21" loading="lazy" />
+    </div>
   </div>
 </body>
 </html>
